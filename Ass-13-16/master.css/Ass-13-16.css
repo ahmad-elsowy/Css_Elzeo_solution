@@ -1,0 +1,46 @@
+/* task 1 */
+
+.parent  .child span{
+    color: red;
+}
+.parent :nth-child(2).title{
+    color: blue;
+}
+div p,
+div.title{
+    color: green;
+}
+
+/* task 2 */
+.one{
+    color:white;
+    margin: 20px;
+    padding: 10px;
+    width: fit-content;
+    background-color: hotpink;
+}
+.two{
+    color:white;
+    margin: 20px;
+    padding: 10px;
+    width: fit-content;
+    background-color: hotpink;
+}
+
+.three{
+    color:white;
+    margin: 20px;
+    padding: 10px;
+    width: fit-content;
+    background-color: hotpink;
+}
+
+.four{
+    color:black;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    max-height:100px;
+    background-color: hotpink;
+    overflow: auto;
+}

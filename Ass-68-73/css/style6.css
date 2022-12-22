@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;   
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 100px auto;
+    width: 200px;
+    /*for 3d effect*/
+    perspective:800px;   
+}
+
+.box{  
+    position: relative;     
+    width: 200px;
+     /*to save position in space*/ /*important to flip*/
+    transform-style: preserve-3d; 
+      /*for  hover*/
+    transition: transform .5s linear;
+   /*to use translateX in hover*/
+    /* transform-origin: bottom right;  */
+    
+ 
+}
+.box:hover{
+    /* transform: translateX(-100%) rotateY(180deg); */
+    transform: rotateX(180deg);
+}
+
+.box .face{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    color:white;    
+    font-size: 40px;
+    /*important to flip*/
+    backface-visibility: hidden; 
+}
+
+.front{
+    background-color: blue;
+}
+.back{
+    background-color: red;
+    /*related to backface-visibility to flip*/
+    transform:translateY(-100%) rotateX(180deg); 
+}

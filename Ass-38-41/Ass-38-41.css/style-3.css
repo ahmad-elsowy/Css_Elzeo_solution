@@ -1,0 +1,78 @@
+.parent{
+    width: 550px;
+    height: 310px  ;
+    margin: 20px auto;
+    border:1px solid gray;
+    position: relative;
+}
+.box1{
+    background-color: #eee;
+    display: inline-block;
+    margin: 20px auto;
+     width: 220px;
+     margin-left: calc( 110px/ 4);
+     height: 270px ;
+     
+}
+
+.box2{
+    background-color: #eee;
+    display: inline-block;
+    margin: 20px auto;
+     width: 220px;
+      margin-left: calc( 110px/ 2);
+     height: 270px ;
+}
+.rec{
+    background-color: rgb(43, 46, 212);
+    margin: 20px ;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.cir{
+    background-color: rgba(128, 128, 128, 0.726);
+    margin:  20px auto ;
+    text-align: center;
+    color: blacl;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 180px;
+    width: 180px;
+    line-height: 180px;
+    border-radius: 50%;
+    font-size: 40px;
+
+}
+.circ{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    line-height: 25px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left:48%;
+    font-weight: bold;
+}
+.circ::first-letter{
+  
+    text-transform: capitalize;
+}
+
+.box1::before{
+    content: "";
+    position:absolute;
+    width: 2px;
+    height: 270px;
+    background-color:blue;
+    right: 272px; 
+    z-index: -1; 
+}

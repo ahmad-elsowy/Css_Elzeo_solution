@@ -1,0 +1,59 @@
+/* task 1 */
+
+div.one{
+  
+   padding: 10px;
+   margin: 20px auto;
+   border: 3px solid ;  
+   border-color: rgb(89, 0, 255);
+   width: 400px;
+   height: fit-content;
+   text-align: center;
+
+}
+
+ p.one{
+    background-color: #eee; 
+    padding: inherit;
+    border: inherit ;
+}
+
+ /* task 2  */
+ 
+div.two{   
+    text-align: center;  
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.three{ 
+    text-align: center; 
+    font-family: 'Cairo', sans-serif;
+}
+
+div.four{    
+    text-align: center; 
+    font-family: 'Jomhuria', cursive;
+}
+
+/* task 3 */
+
+div.five{ 
+    text-align: center;   
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+div.sex{    
+    text-align: center;   
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+div.seven{    
+    text-align: center;   
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+/* ----------------------------------- */

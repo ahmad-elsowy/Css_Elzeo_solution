@@ -1,0 +1,39 @@
+:root{
+    --maincolor:#009688;
+}
+
+h1{
+    width: 150px;
+    margin: 40px auto;
+    background-color: var(--maincolor);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+h1::before{
+    content: "";
+    width: 5px;
+    height: 57px;
+    /* z-index: -1; */
+    background-color: var(--maincolor);
+    position: absolute;
+    top: 0;
+    left: -14px;
+    padding: 10px;
+    transform: skew(15deg, 0deg);
+     /* ------------------task 3--------------------*/
+    /* transform: matrix(1, 0, 0.26, 1, 0, 0);  */
+    /*---------------------------------------------*/
+    background-image: linear-gradient(to right, var(--maincolor) 80%, white 80%);
+   
+    
+    
+    
+  
+
+}

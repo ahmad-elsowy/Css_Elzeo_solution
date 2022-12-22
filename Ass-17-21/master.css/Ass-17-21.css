@@ -1,0 +1,65 @@
+/* task 1 */
+
+p{
+    text-shadow: .3px .3px 0px red ,.6px .6px 0px blue, .8px .8px 0px green;
+}
+
+/* task 2 */
+p.one{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p.two{
+    text-align: center;
+    text-transform:capitalize;
+}
+
+p.three{
+    text-align: center;
+    text-transform:lowercase;
+}
+
+/* task 3 */
+div.one{
+    background-color: #eee;
+    margin: 10px auto ;
+    padding: 10px;
+    width:400px;
+    text-align: left;
+}
+
+/* khataaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab */
+div.two{
+    background-color: #eee;
+    margin: 10px auto ;
+    padding: 10px;
+    width:400px;
+    word-break: break-word;
+    white-space: nowrap;
+   overflow-x:hidden ;
+  
+}
+/* ------------------------------- */
+div.three{
+    background-color: #eee;
+    margin: 10px auto ;
+    padding: 10px;
+    width:400px;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow-x:hidden ;
+  
+}
+/* task 3 */
+a{
+    text-align: center;
+    margin:  50%;           
+      /* margin-top: 10px;   khataaaaaaaaaaaaaab*/
+    padding :10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: turquoise;
+    border-bottom: 5px solid teal;
+    text-align: center;
+}

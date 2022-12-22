@@ -1,0 +1,36 @@
+.up{
+    width:300px;
+    height: 150px;
+    padding: 10px;
+    margin:40px auto;
+    background-color: #eee;
+    text-align: center;
+
+    transition-property: margin;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+
+}
+
+.down{
+ 
+    margin:10px auto;
+    background-color: gray;
+    padding: 10px;
+
+    transition-property: margin;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+
+.up:hover{
+    margin:10px auto;
+    
+}
+
+.up:hover .down{
+    margin:40px auto;
+    
+}

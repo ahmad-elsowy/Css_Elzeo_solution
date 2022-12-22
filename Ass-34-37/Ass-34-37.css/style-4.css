@@ -1,0 +1,22 @@
+p{
+    background-color: #eee;
+    width: 300px;
+    margin: 20px auto;
+    counter-increment: cc;
+    padding: 5px;
+    position: relative;
+    border-right: 5px solid red;
+
+}
+
+p::before{
+    content: counter(cc);
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 20px;
+    
+}

@@ -1,0 +1,64 @@
+.parent{
+    margin: auto ;
+    width:800px;
+    background-color: grey;
+    overflow: hidden; /*must be written*/
+    
+}
+
+.full-width,
+.one-third,
+.half,
+.one-fourth{
+    background-color: #eee;
+    padding-top: 15px;
+    padding-bottom:15px ;
+    margin-left: 15px;
+    float: left;
+    margin-top: 15px;
+    text-align: center;
+}
+.clear{
+    clear:both;
+  }
+
+.full-width{
+  width: calc(100% - 30px);
+}
+
+.one-third{    
+    width: calc((100% - 60px) / 3);    
+}
+.half
+{
+    width: calc((100% - 45px) / 2);
+}
+.one-fourth{
+    width: calc((100% - 75px) / 4);  
+    margin-bottom: 15px; 
+}
+
+
+
+/* task 2 */
+.normal,
+.one,
+.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #eaeaea;
+    color: black;
+    clear:both;
+  }
+
+
+.one{
+    opacity:.1 ;
+}
+.two{
+    background-color: rgba(234, 234, 234, 0.1) ;
+    
+}  

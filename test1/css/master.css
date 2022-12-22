@@ -1,0 +1,19 @@
+/* without class or id */
+p{
+    color: red;
+    font-size: 40px;
+}
+/* with class */
+.my-p{    
+    color:blue;
+    font-size:  x-large  ;
+}
+/* with id */
+ #pp{    
+    color:yellowgreen;
+    font-size:  xx-large  ;
+}
+
+
+
+

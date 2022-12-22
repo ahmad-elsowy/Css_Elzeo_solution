@@ -1,0 +1,5 @@
+
+div[title ^= "H"],
+div:nth-last-child(7){
+    color: red;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    background-color: #eee;
+    margin: 30px;
+    padding: 20px;
+    position: relative;
+ 
+}
+.arrow::before{
+    content: "";
+    position: absolute;
+    border: 15px solid;
+     
+}
+.top::before{
+    right:50%;
+    top: -50%; 
+    border-color:transparent transparent #eee transparent ;
+}
+.right::before{
+    right:-30px;
+    top: 15px; 
+    border-color:transparent transparent transparent #eee ;
+}
+.bottom::before{
+    border-color:#eee transparent transparent transparent ;
+    right:50%;
+    top:100%;
+
+}
+.left::before{
+    left:-30px;
+    top: 15px;  
+     border-color:transparent #eee transparent transparent ; 
+
+}
+
+

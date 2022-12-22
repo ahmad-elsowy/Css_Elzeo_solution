@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid{
+    /* width: 1500px;
+    height: 2000px; */
+    
+    background-color:#eee;
+    margin:auto;
+    padding: 20px;
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(50,1fr);
+    gap: 10px;
+}
+.grid div{
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+    line-height: 2.5em;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0  ;
+    margin-bottom: 0;
+    
+}
+.job{   
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.first{
+    font-weight: bold;
+    font-size: 30px;
+}
+.second{   
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.one{
+    grid-column: 1 / 3;
+    grid-row: 1 / 14;
+    background-color: #fff;
+}
+.two{
+    grid-column: 3 / 4;
+    grid-row: 1 / 14;
+    background-color: #fff;
+}
+.three{
+    grid-column: 4 / 5;
+    grid-row: 1 / 40;
+    background-color: black;
+    color: white;
+}
+.three .job,
+.three .second,
+.five .job,
+.five .second,
+.eight .job,
+.eight .second{
+    color: rgba(255, 255, 255, 0.39);
+}
+.four{
+    grid-column: 1 / 2;
+    grid-row: 14 / 40 ;
+    background-color: #fff;
+}
+.five{
+    grid-column: 2 / 4;
+    grid-row: 14 / 27 ;
+    background-color: #fff;
+    background-color: black;
+    color: white;
+}
+.sex{
+    grid-column: 2 / 4;
+    grid-row: 27 / 40 ;
+    background-color: #fff;
+}
+.seven{
+    grid-column: 1 / 2;
+    grid-row: 40 / 51 ;
+    background-color: #fff;
+}
+.eight{
+    grid-column: 2 / 3;
+    grid-row: 40 / 51 ;
+    background-color: black;
+    color: white;
+}
+.nine{
+    grid-column: 3 / 4;
+    grid-row: 40 / 51 ;
+    background-color: #fff;
+}
+.ten{
+    grid-column: 4 / 5;
+    grid-row: 40 / 51 ;
+    background-color: #fff;
+}
+.grid div::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: #ff3d00;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.name{
+    font-weight: bold;
+    font-size: 30px;
+}
+.job{
+    color: rgba(0, 0, 0, 0.493);
+    font-size: 30px;
+    font-weight: bold;
+}
+.first{
+    font-weight: bold;
+    font-size: 30px;
+}
+.second{
+    color: rgba(0, 0, 0, 0.493);
+    font-size: 30px;
+    font-weight: bold;
+}
+span{
+    color:gray;
+    position: absolute;
+    font-size: 70px;
+    right: 20px;
+    bottom: 0;
+}

@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.EL{
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start; 
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    z-index: -2;
+
+    position: relative;
+    
+
+    outline: 2px solid gray;
+    outline-offset: 40px;
+
+    
+}
+.EL div:not(  div:nth-last-child(2) , div:nth-last-child(1)  )
+{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+
+
+}
+
+.e1{
+    order: 1;
+    flex-basis: 80px;
+    margin-right: 20px;
+    
+}
+.e2{
+    order: 2;
+    margin-right: 60px;
+    flex-basis: 20px;
+    
+}
+.e3{
+    order: 3;
+    flex-basis: 20px;
+    margin-right: 80px;
+}
+.e4{
+    order: 4;
+    flex-basis: 20px;
+    margin-right: 60px;
+}
+.e5{
+    order: 5;
+    flex-basis: 20px ;
+    margin-right: 80px;
+}
+.e6{
+    order: 6;
+    flex-basis: 20px;
+    margin-right: 60px;
+}
+.e7{
+    order: 7;
+    flex-basis: 20px;
+    margin-right: 80px;
+}
+.e8{
+
+    order: 8;
+    flex-basis: 20px;
+    margin-right: 60px;
+}
+.e9{
+    order: 9;
+    flex-basis: 80px;
+    margin-right: 20px;
+}
+.e10{
+    order: 10;
+    flex-basis: 20px;
+    margin-right: 60px;
+}
+.e11{
+    order: 11;
+    flex-basis: 20px;
+    margin-right: 80px;
+}
+.e12{
+    order: 12;
+    flex-basis: 20px;
+    margin-right: 60px;
+}
+.e13{
+    order: 13;
+    flex-basis: 20px;
+    margin-right: 80px;
+}
+.e14{
+    order: 14;
+    flex-basis: 20px;
+    margin-right: 60px;
+}
+.e15{
+    order: 15;
+    flex-basis: 20px;
+    margin-right: 80px;
+}
+.e16{
+    order: 16;
+    flex-basis: 20px;
+    margin-right: 60px;
+}
+.e17{
+    order: 17;   
+    flex-basis: 80px;
+    margin-right: 20px;
+}
+.e18{
+    order: 18;
+    flex-basis: 80px;
+}
+
+
+.E,
+.L{
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    color: aliceblue;
+    flex-basis: 20px;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ 
+}
+
+.E{
+    top: 0;
+    left: 60px;
+    animation-name: anmE;
+    animation-duration: 6s;
+}
+.L{
+ 
+    top: 160px;
+    left: 160px;
+    opacity: -1;
+    animation-name: anmL;
+    animation-duration: 6s;  
+    animation-delay: 4s;
+   
+}
+
+@keyframes anmE{
+    
+    0%{
+        transform: translate(0,0);  
+    }
+    7%{ 
+        transform: translate(-60px,0);           
+    }
+    14%{ 
+        transform: translate(-60px,80px);            
+    }
+    21%{  
+        transform: translate(0,80px);             
+    }
+    28%{  
+        transform: translate(-60px,80px);         
+    }
+    35%{ 
+        transform: translate(-60px,160px);         
+    }
+    42%{  
+        transform: translate(0,160px);         
+    }
+    49%{ 
+        transform: translate(-60px,160px);         
+    }
+    56%{ 
+        transform: translate(-60px,0);          
+    }
+    60%{  
+        transform: translate(0,0);         
+    }
+    100%{ 
+        transform: translate(0,0);       
+    }
+}
+
+
+@keyframes anmL{
+    0%{
+        transform: translate(0,0); 
+        opacity: -1;
+    }
+    3%{ 
+        transform: translate(0,0);        
+        opacity: 1;
+    }
+    8%{       
+       
+        transform: translate(-60px,0);     
+        opacity: 1;
+    }
+    17%{  
+        transform: translate(-60px,-160px);   
+        opacity: 1;
+   }
+   25%{  
+        transform: translate(-60px,-160px);   
+        opacity: 1;
+    }
+    33.3%{  
+         transform: translate(-60px,-160px);   
+        opacity: -1;
+    }
+    100%{    
+        transform: translate(-60px,-160px);       
+        opacity: -1;
+    }
+}

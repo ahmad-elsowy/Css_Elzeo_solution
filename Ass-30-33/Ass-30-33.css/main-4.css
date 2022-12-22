@@ -1,0 +1,44 @@
+table{
+    width: 70%;
+    border-bottom: 4px solid #009688;
+    margin: 20px auto;
+    border-spacing: 5px;
+    
+}
+
+th{
+background-color:black;
+color: white;
+padding: 15px;
+
+}
+td{
+    text-align: center;
+    background-color: #eee;
+    padding: 15px;
+   
+}
+caption{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;  
+}
+
+div{
+    display:inline-block;
+    color: white;
+    padding: 5px;
+    margin: 3px auto;
+  
+}
+img{
+    width: 60px; 
+    /* margin: 5px; */
+    
+}
+.v{
+    background-color: blue;
+}
+.d{
+    background-color: red;
+}
